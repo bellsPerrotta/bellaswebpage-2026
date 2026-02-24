@@ -1,53 +1,31 @@
-html{
-  background-color: A8A5A0;
+html {
+  background-color: #A8A5A0;
 }
-
-
-
-
-
-
 
 #navbar {
   list-style-type: none;
   margin: 0;
   padding: 15px;
-  background-color: black;
+  background-color: #150300;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
 #navbar li {
   margin: 0 15px;
-  
 }
-
 #navbar a {
   color: white;
   text-decoration: none;
   padding: 14px 16px;
 }
-
-#navbar a:hover {
-  text-decoration: underline;
-}
-
-#navbar a.active {
+#navbar a:hover, #navbar a.active {
   text-decoration: underline;
 }
 
 #nav1 {
-color: 63A4F2;
+  color: #63A4F2;
 }
-
-
-
-
-
-
-
-
 
 #content {
   display: flex;
@@ -55,57 +33,30 @@ color: 63A4F2;
   align-items: center;
   padding: 80px 100px;
 }
-
-
-
-#hello{
-    color: B263F2;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-
-.star {
-  width: 20px;          
-  margin: 10px 0 20px; 
-  align-self: center;
-}
-
-#text {
+#content #text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-
-#pic {
-  width: 450px;
-  border-radius: 15px;
+#content .star {
+  width: 20px;
+  margin: 10px 0 20px;
+  align-self: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer-link {
-  color: black;
+  color: #575757;
   text-decoration: none;
   font-weight: bold;
 }
-
 .footer-link:hover {
   text-decoration: underline;
 }
-
 .footer-link:visited {
-  color: black;
+  color: #575757;
 }
+
+#hello {
+  color: #B263F2;
+  text-shadow: 2px 2px 4px #000;
+}/*# sourceMappingURL=main.css.map */

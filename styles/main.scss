@@ -1,0 +1,74 @@
+@use '../vendor/normalize';
+@use '../partials/colors';
+
+
+html {
+  background-color: colors.$page-background;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  background-color: colors.$darker-background;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  li {
+    margin: 0 15px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+
+    &:hover,
+    &.active {
+      text-decoration: underline;
+    }
+  }
+}
+
+#nav1 {
+  color: colors.$accent-blue;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+
+  #text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .star {
+    width: 20px;
+    margin: 10px 0 20px;
+    align-self: center;
+  }
+}
+
+.footer-link {
+  color: colors.$primary-font-color;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: colors.$primary-font-color;
+  }
+}
+
+#hello {
+  color: colors.$accent-purple;
+  text-shadow: 2px 2px 4px #000;
+}
